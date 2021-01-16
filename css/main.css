@@ -1,0 +1,59 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 100px auto;
+  border-radius: 5px;
+}
+
+.container .card .card_header {
+  background-color: #EFEFEF;
+  border: 1px solid #DFDFDF;
+}
+
+.container .card .card_header button {
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  color: #6598CF;
+  width: 100%;
+  text-align: left;
+}
+
+.container .card .card_header button:hover {
+  text-decoration: underline;
+}
+
+.container .card .card_header button:focus {
+  outline: auto 0px;
+  text-decoration: underline;
+}
+
+.container .card .card_body div {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  border-right: 1px solid #DFDFDF;
+  border-left: 1px solid #DFDFDF;
+  transition: all 0.4s ease-in-out;
+}
+
+.container .card .card_body div p {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.container .card .card_body .content__border {
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.container .card .card_body .appear {
+  visibility: visible;
+  opacity: 1;
+  height: 200px;
+}
